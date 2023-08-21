@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+   
+}
+
+header {
+    top: 0;
+    left: 0;
+    padding: 20px 0px;
+    width: 100%;
+    font-family: 'DM Serif Display', serif;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    background-color: rgb(62, 111, 98);
+}
+
+.box {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.SleepingBeauty {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(62, 111, 98);
+    padding: 20px;
+    width: 24%;
+    height: 550px;
+    margin-top: 20px;
+    box-shadow: 0 0 20px rgba( 0, 0, 0, .5);
+    border-radius: 20px;
+}
+
+.SleepingBeauty h2 {
+    margin-bottom: 10px;
+}
+.SleepingBeauty img {
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.star {
+    font-size: 30px;
+    color: yellow;
+}
